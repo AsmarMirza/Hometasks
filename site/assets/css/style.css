@@ -1,0 +1,133 @@
+*{
+    box-sizing: border-box;
+    text-decoration: none;
+    list-style: none;
+    margin: 0px;
+    padding: 0px;
+    color: inherit;
+    font-family:  "Montserrat", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, "Noto Sans", sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";;
+  
+
+/* nav started */
+}
+.nav{
+    width: 100%;
+    background-color:rgb(44, 62, 80);
+    color: white;
+    justify-content: space-between;
+    text-transform: uppercase;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    font-weight: 700;
+    margin: auto;
+    padding-left: 80px;
+    padding-right: 80px;
+
+
+    
+   
+}
+.nav_list{
+    display: flex;
+    gap: 20px;
+}
+.nav_list_link{
+    color: white;
+    text-transform: uppercase;
+    font-size: 1em;
+    font-weight: bold;
+}
+
+   
+
+.left{
+    padding: 30px;
+  
+}
+.nav_butn{
+    display: none;
+}
+/* nav ended */
+@media screen and (max-width: 728px){
+  .nav_list{
+      display: none;
+  } 
+  .nav_butn{
+      display: flex;
+      align-items: center;
+    gap: 3px;
+      justify-content: space-between;
+      font-size: 12px;
+border-radius: 10px;
+padding: 20px;
+      background-color: rgb(26 188 156);
+  }
+
+}
+.main_div{
+ display: flex;
+ flex-direction: column;
+ align-items: center;
+ justify-content: center;
+ gap: 50px;
+    background-color:  rgb(26 188 156);
+    height: 100vh;
+    color: white;
+    /* margin: 0px 73.5px; */
+    padding: 0px 12px;
+
+}
+.heroimg{
+    background-color: black;
+    width: 100px;
+    height: 100px;
+    object-fit: cover;
+
+}
+img{
+    width: 100%;
+}
+.title{
+    font-size: 50px;
+    text-align: center;
+
+}
+.whiteicon{
+    display: flex;
+    gap: 20px;
+}
+.left_icon{
+  
+    width: 120px;
+    height: 5px;
+    background-color: white;
+    margin-top: 20px;
+   
+}
+.right_icon{
+    width: 120px;
+    height: 5px;
+    background-color: white;
+    margin-top: 20px;
+
+}
+.whiteicon i{
+    
+    font-size:50px;
+    
+}
+.heroparagraph p{
+    font-size: 30px;
+    text-align: center;
+}
+@media only screen and (max-width: 526px){
+ .title{
+     font-size: 30px;
+ }
+ .heroparagraph p{
+    font-size: 15px;
+  
+}
+}
+
