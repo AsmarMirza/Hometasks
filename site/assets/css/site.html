@@ -13,6 +13,7 @@
 </head>
 
 <body>
+    <!-- nav -->
     <header>
         <nav class="nav">
             <div class="left">
@@ -31,6 +32,7 @@
         </nav>
     </header>
     <main class="hero">
+        <!-- Hero main section -->
         <section>
             <div class="heromain">
 
@@ -49,9 +51,12 @@
 
             </div>
         </section>
+        <!-- Portfolio section -->
         <section class="portfolio">
             <div class="portcontainer">
-            <div class="porth"><h1 style="font-size: 2.25rem;">portfolio</h1></div>
+                <div class="porth">
+                    <h1 style="font-size: 2.25rem;">portfolio</h1>
+                </div>
                 <div class="porticons">
                     <div class="leftport"></div>
                     <i class="fa-solid fa-star"></i>
@@ -59,37 +64,93 @@
                 </div>
             </div>
             <div class="portimg">
-                 <div class="portimg1" ><img src="./cabin.png" alt=""></div>
-                 <div class="portimg2" ><img src="./cake.png" alt=""></div>
-                 <div class="portimg3"><img src="./circus.png" alt=""></div>
-                 <div class="portimg4"><img src="./game.png" alt=""></div>
-                 <div class="portimg5"><img src="./safe.png" alt=""></div>
-                 <div class="portimg6"><img src="./submarine.png" alt=""></div>
-                </div>
+                <div class="portimg1"><img src="./cabin.png" alt="">
+                <div class="overlay"><i class="fa-solid fa-plus"></i></div></div>
+                <div class="portimg1"><img src="./circus.png" alt="">
+                    <div class="overlay"><i class="fa-solid fa-plus"></i></div></div>
+                <div class="portimg1"><img src="./cake.png" alt="">
+                    <div class="overlay"><i class="fa-solid fa-plus"></i></div></div>
+                <div class="portimg1"><img src="./game.png" alt="">
+                    <div class="overlay"><i class="fa-solid fa-plus"></i></div></div>
+                <div class="portimg1"><img src="./safe.png" alt="">
+                    <div class="overlay"><i class="fa-solid fa-plus"></i></div></div>
+                <div class="portimg1"><img src="./submarine.png" alt="">
+                    <div class="overlay"><i class="fa-solid fa-plus"></i></div></div>
+            </div>
         </section>
+        <!-- About section -->
         <section class="about">
-            <div class="abouth"><h1>About</h1></div>
+            <div class="abouth">
+                <h1>About</h1>
+            </div>
             <div class="abouticons">
                 <div class="aboutleft"></div>
                 <i class="fa-solid fa-star"></i>
                 <div class="aboutright"></div>
             </div>
-            <div class="aboutparag"> 
-                <div><p class="aboutparagtext">Freelancer is a free bootstrap theme created by Start Bootstrap. The download includes the complete source files including HTML, CSS, andJavaScript as well as optional SASS stylesheets for easy customization.</p></div>
-                <div><p class="aboutparagtext">You can create your own custom avatar for the masthead, change the icon in the dividers, and add your email address to the contact form to make it fully functional!</p></div>
+            <div class="aboutparag">
+                <div>
+                    <p class="aboutparagtext">Freelancer is a free bootstrap theme created by Start Bootstrap. The
+                        download includes the complete source files including HTML, CSS, andJavaScript as well as
+                        optional SASS stylesheets for easy customization.</p>
+                </div>
+                <div>
+                    <p class="aboutparagtext">You can create your own custom avatar for the masthead, change the icon in
+                        the dividers, and add your email address to the contact form to make it fully functional!</p>
+                </div>
                 <div class="aboutbtn"></div>
 
             </div>
             <button> <i class="fa-solid fa-download"></i>Free Download</button>
         </section>
-        <section class="contact" >
-            <div><h1>Contact me</h1></div>
-            <div class="contacticons">
-                <div></div>
-                <div></div>
+        <!-- Contact section -->
+        <section class="contact">
+            <div class="contacth">
+                <h1>Contact me</h1>
+            </div>
+            <div class="contacticon">
+                <div class="contactleft"></div>
+                <i class="fa-solid fa-star"></i>
+                <div class="contactright"></div>
+            </div>
+            <div class="form">
+                <form action="">
+                    <input type="text" placeholder="Full name">
+                    <input type="email" placeholder="Email address">
+                    <input type="text" name="" id="" placeholder="Phone number">
+                    <textarea name="" id="" cols="30" rows="4" placeholder="Message"></textarea>
+                    <button class="formbuttn">Send</button>
+                </form>
+            </div>
+        </section>
+        <!-- Footer -->
+        <footer>
+            <section class="footer">
+                <div class="footermain">
+                <div class="location">
+                    <h4>Location</h4>
+                    <p class="left">2215 John Daniel Drive Clark, MO 65243</p>
+                </div>
+                <div class="around">
+                    <h4 class="esmer-around">AROUND THE WEB</h4>
+                    <div class="footericon">
+                    <div class="facebook"><i class="fa-brands fa-facebook"><a href=""></a></i></div>
+                    <div class="facebook"><i class="fa-brands fa-twitter"><a href=""></a></i></div>
+                    <div class="facebook"><i class="fa-brands fa-linkedin"><a href=""></a></i></div>
+                    <div class="facebook"><i class="fa-brands fa-dribbble"><a href=""></a></i></div>
+                </div>
+                </div>
+                <div class="freelancer">
+                    <h4>ABOUT FREELANCER</h4>
+                    <p class="right">Freelance is a free to use, MIT licensed Bootstrap theme created by <a href="" class="start">Start Bootstrap</a></p>
+                </div>
             </div>
 
-        </section>
+            </section>
+            <section class="end">
+               <p class="endoffooter">Copyright © Your Website 2023</p>
+            </section>
+        </footer>
 
     </main>
 </body>
